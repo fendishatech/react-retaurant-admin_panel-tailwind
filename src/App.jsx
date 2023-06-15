@@ -1,3 +1,7 @@
+{
+  /* <div className="flex items-center justify-center"></div>; */
+}
+
 import "./styles/main.css";
 import Dashboard from "./components/Dashboard";
 
