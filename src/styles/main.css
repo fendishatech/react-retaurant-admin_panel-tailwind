@@ -7,3 +7,21 @@
 :root {
     font-family: 'Montserrat', sans-serif;
 }
+
+li {
+    opacity: .3;
+    cursor: pointer;
+}
+
+body {
+    background-color: #ece3e9;
+}
+
+.singleRestaurant:hover img {
+    transform: scale(1.1);
+    transition: all .8s ease-in-out;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

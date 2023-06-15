@@ -1,11 +1,10 @@
 import "./styles/main.css";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <div className="m-6 border-[2px] border-indigo-600 rounded">
-      <h1 className="py-[3rem] text-center text-5xl font-bold text-indigo-600">
-        Vite + React
-      </h1>
+    <div className="flex justify-center items-center">
+      <Dashboard />
     </div>
   );
 }
