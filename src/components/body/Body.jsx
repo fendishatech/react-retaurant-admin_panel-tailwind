@@ -1,5 +1,5 @@
 import { AiOutlineSearch, AiOutlineAppstoreAdd } from "react-icons/ai";
-import { BsPlus } from "react-icons/bs";
+import { BsPlus, BsArrowRightShort } from "react-icons/bs";
 import PrimaryButton from "../buttons/PrimaryButton";
 
 const Body = () => {
@@ -101,6 +101,22 @@ const Body = () => {
           <span className="uppercase text-[12px] font-medium opacity-[50] pt-2 text-center">
             More
           </span>
+        </div>
+      </div>
+      {/* restaurant section */}
+      <div className="mt-8">
+        <div className="flex items-center justify-between">
+          <div className="title">
+            <h1 className="text-[25px] text-titleColor mb-4 font-bold">
+              New Restaurants
+            </h1>
+            <span className="text-[16px] opacity-70">
+              <strong>9 Restaurants,</strong> have been opened up in town.
+            </span>
+          </div>
+          <button className="flex items-center gap-4 bg-sideMenuBg cursor-pointer text-bodyBg font-semibold px-4 py-2 rounded-[5px] hover:bg-[#55545e] transition-all">
+            View All <BsArrowRightShort className="text-[20px]" />
+          </button>
         </div>
       </div>
     </div>
