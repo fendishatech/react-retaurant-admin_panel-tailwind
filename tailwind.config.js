@@ -24,5 +24,15 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".f-j-between-a-center": {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+        },
+      });
+    },
+  ],
 };
