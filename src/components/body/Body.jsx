@@ -4,7 +4,7 @@ import PrimaryButton from "../buttons/PrimaryButton";
 
 const Body = () => {
   return (
-    <div className="w-full bg-bodyBg h-[100%] basis-80 p-8">
+    <div className="w-[80%] min-h-screen max-h-screen bg-bodyBg  p-8 overflow-scroll">
       {/* Top Section */}
       <div className="flex items-center justify-between">
         <div className="flex items-center border-b-2 pb-2 basis-1/2 gap-2">
@@ -117,6 +117,26 @@ const Body = () => {
           <button className="flex items-center gap-4 bg-sideMenuBg cursor-pointer text-bodyBg font-semibold px-4 py-2 rounded-[5px] hover:bg-[#55545e] transition-all">
             View All <BsArrowRightShort className="text-[20px]" />
           </button>
+        </div>
+      </div>
+      {/* restaurants */}
+      <div className="py-8 flex justify-center items-center">
+        {/* Asian */}
+        <div className="w-[222px] p-3 rounded-[10px] bg-colorOne">
+          <div className="h-[130px] w-full overflow-hidden rounded-md">
+            <img
+              className="w-full h-full object-cover"
+              src="https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </div>
+          <h1 className="block text-center font-bold opacity-90 pt-4">
+            Place Name
+          </h1>
+          <small className="block text-center text-[#606060] font-medium">
+            Asian Restaurant
+          </small>
+          <div className="mt-5 flex justify-center items-center"></div>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import Sidebar from "./sidebar/Sidebar";
 
 const Dashboard = () => {
   return (
-    <div className="w-[85vw] h-[90vh] my-8 m-auto rounded-xl flex justify-center items-center overflow-hidden">
+    <div className="w-full h-full m-auto flex justify-center items-center overflow-hidden">
       <Sidebar />
       <Body />
     </div>

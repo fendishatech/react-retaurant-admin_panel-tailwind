@@ -3,7 +3,7 @@ import { AiFillHome } from "react-icons/ai";
 
 const Sidebar = () => {
   return (
-    <div className="p-4 bg-sideMenuBg relative h-[100%] basis-20 text-white">
+    <div className="w-[20%] min-h-screen p-4 bg-sideMenuBg relative text-white">
       {/* Logo */}
       <div className="logo mt-4 gap-2 m-auto flex items-center justify-center">
         <GiHamburger className="text-[20px]" />
