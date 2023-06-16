@@ -1,4 +1,10 @@
-import { AiOutlineSearch, AiOutlineAppstoreAdd } from "react-icons/ai";
+import {
+  AiOutlineSearch,
+  AiOutlineAppstoreAdd,
+  AiFillStar,
+} from "react-icons/ai";
+import { MdMonetizationOn } from "react-icons/md";
+import { GiPathDistance } from "react-icons/gi";
 import { BsPlus, BsArrowRightShort } from "react-icons/bs";
 import PrimaryButton from "../buttons/PrimaryButton";
 
@@ -120,7 +126,7 @@ const Body = () => {
         </div>
       </div>
       {/* restaurants */}
-      <div className="py-8 flex justify-center items-center">
+      <div className="py-8 flex justify-center items-center gap-[10px]">
         {/* Asian */}
         <div className="w-[222px] p-3 rounded-[10px] bg-colorOne">
           <div className="h-[130px] w-full overflow-hidden rounded-md">
@@ -136,7 +142,118 @@ const Body = () => {
           <small className="block text-center text-[#606060] font-medium">
             Asian Restaurant
           </small>
-          <div className="mt-5 flex justify-center items-center"></div>
+          <div className="mt-5 flex justify-center items-center">
+            <div className="grid px-3">
+              <AiFillStar className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+
+            <div className="grid px-3">
+              <MdMonetizationOn className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+
+            <div className="grid px-3">
+              <GiPathDistance className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+          </div>
+        </div>
+        {/* second */}
+        <div className="w-[222px] p-3 rounded-[10px] bg-colorTwo">
+          <div className="h-[130px] w-full overflow-hidden rounded-md">
+            <img
+              className="w-full h-full object-cover"
+              src="https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </div>
+          <h1 className="block text-center font-bold opacity-90 pt-4">
+            Place Name
+          </h1>
+          <small className="block text-center text-[#606060] font-medium">
+            Asian Restaurant
+          </small>
+          <div className="mt-5 flex justify-center items-center">
+            <div className="grid px-3">
+              <AiFillStar className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+
+            <div className="grid px-3">
+              <MdMonetizationOn className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+
+            <div className="grid px-3">
+              <GiPathDistance className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+          </div>
+        </div>
+        {/* Third */}
+        <div className="w-[222px] p-3 rounded-[10px] bg-colorThree">
+          <div className="h-[130px] w-full overflow-hidden rounded-md">
+            <img
+              className="w-full h-full object-cover"
+              src="https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </div>
+          <h1 className="block text-center font-bold opacity-90 pt-4">
+            Place Name
+          </h1>
+          <small className="block text-center text-[#606060] font-medium">
+            Asian Restaurant
+          </small>
+          <div className="mt-5 flex justify-center items-center">
+            <div className="grid px-3">
+              <AiFillStar className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+
+            <div className="grid px-3">
+              <MdMonetizationOn className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+
+            <div className="grid px-3">
+              <GiPathDistance className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+          </div>
+        </div>
+        {/* Third */}
+        <div className="w-[222px] p-3 rounded-[10px] bg-colorThree">
+          <div className="h-[130px] w-full overflow-hidden rounded-md">
+            <img
+              className="w-full h-full object-cover"
+              src="https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </div>
+          <h1 className="block text-center font-bold opacity-90 pt-4">
+            Place Name
+          </h1>
+          <small className="block text-center text-[#606060] font-medium">
+            Asian Restaurant
+          </small>
+          <div className="mt-5 flex justify-center items-center">
+            <div className="grid px-3">
+              <AiFillStar className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+
+            <div className="grid px-3">
+              <MdMonetizationOn className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+
+            <div className="grid px-3">
+              <GiPathDistance className="flex mt-auto justify-center items-center" />
+              <h4 className="font-semibold text-[#4f4d58]">3.7</h4>
+            </div>
+          </div>
         </div>
       </div>
     </div>
